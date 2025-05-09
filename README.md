@@ -1,1 +1,3 @@
-#Towards Accurate Image Segmentation with Multi-Scale Adaptive Feature  Modeling and Semantic Fusion
+# Towards Accurate Image Segmentation with Multi-Scale Adaptive Feature  Modeling and Semantic Fusion
+
+Code is continuously being updated.....
