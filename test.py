@@ -22,7 +22,7 @@ args = parser.parse_args()
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 test_loader = TestDataset(args.test_image_path, args.test_gt_path, 352)
-model = SAM2UNet().to(device)
+model = MASFNet().to(device)
 model.load_state_dict(torch.load(args.checkpoint), strict=True)
 model.eval()
 model.cuda()
