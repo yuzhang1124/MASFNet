@@ -42,7 +42,7 @@ def main(args):
     dataset = FullDataset(args.train_image_path, args.train_mask_path, 352, mode='train')
     dataloader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True, num_workers=8)
     device = torch.device("cuda")
-    model = SAM2UNet(args.hiera_path)
+    model = MASFNet(args.hiera_path)
     model.to(device)
     optim = opt.AdamW([{"params": model.parameters(), "initial_lr": args.lr}], lr=args.lr,
                       weight_decay=args.weight_decay)
