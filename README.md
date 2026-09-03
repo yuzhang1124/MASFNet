@@ -3,5 +3,3 @@
 
 ## Download The pretrained weights, prediction maps, and related experimental files can be downloaded from Baidu Netdisk: - Baidu Netdisk: [https://pan.baidu.com/s/1gnPu6M8ZLmKG3PeGQuCczA?pwd=htf5] - Extraction code: `htf5` The repository will be continuously updated with training scripts, testing scripts, model weights, and evaluation instructions.
 
-
-Code is continuously being updated.....
